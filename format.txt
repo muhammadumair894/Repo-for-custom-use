@@ -1,0 +1,194 @@
+A formal proposal for a MSc project that will be submitted in partial fulfillment of a University of Greenwich Master’s Degree
+
+Enter your MSc Project Title here – PREDICTIVE MODEL FOR FORECASTING STOCK PRICES
+
+
+Name:
+
+Student ID:
+
+Course of Study:  
+
+
+
+
+
+
+
+
+Date Proposal Submitted:  
+
+Submission Date:
+
+
+Supervisor: 
+
+
+Topic Area:  Data Science, Artificial Intelligence, Big Data
+
+
+Keywords associated with the project:  Stock price prediction, Artificial Intelligence in finance, LSTM model, Financial market analysis, Predictive modeling.
+
+
+MSc Modules studied that contribute towards this project: You need to type in a minimum of two modules here
+
+Project Proposal: Predictive Model for Forecasting Stock Prices
+
+Overview:
+The aim of this project proposal is to develop a predictive model for forecasting the closing prices of a specific stock. The project revolves around utilizing historical stock price data, implementing machine learning techniques, and evaluating the model's performance. The project's intended result is to create a reliable tool for predicting future stock prices, which can be invaluable for investors and traders in making informed financial decisions.
+
+Background:
+Stock price prediction has always been of great interest to financial analysts, investors, and traders. Accurate forecasting can provide insights into potential price movements, helping market participants make informed decisions about buying, selling, or holding specific stocks. The use of machine learning algorithms has gained prominence in recent years due to their ability to process large amounts of data and uncover hidden patterns that can contribute to more accurate predictions(Huang and Peissl, 2023).
+
+Research:
+The research involved in this project primarily revolves around scholarly articles mentioning the new models used to predict the closing prices of a stock market as well as trying and testing already made models and how they may train their model for prediction. The research would also be put into the different factors/variables that makes the stock market move. If the research is successful in finding and evaluating those variables, a robust and accurate model can be created. Research would also be put into tracking live events for prediction as a factor. The development would be done in phases.
+The data pre-processing phase will involve utilizing libraries such as pandas and numpy to clean, transform, and prepare the data for analysis. This includes handling missing values, normalizing the data, and splitting it into training and testing sets.
+For now the core of the project lies in implementing the LSTM model, a type of recurrent neural network (RNN) that is particularly effective in capturing and utilizing long-term dependencies in sequential data but that can easily change If I am able to find a better model. The LSTM model will be built using the Keras library, which provides a user-friendly interface for designing and training neural networks.
+For the testing phase, a portion of the historical data will be used for training, while another portion will be set aside for testing. The model will be trained using the training data, and its predictions will be compared against the actual prices from the testing data. To evaluate the accuracy evaluation metrics such as root mean squared error (RMSE) will be used.
+
+
+Build:
+The proposed plan for project build involves the following steps:
+Data Collection: Collection of data to train the model, this can be obtained using APIs
+Data Preprocessing: Cleaning the data by handling missing values and transforming the data into a suitable format and using all the cleaning methods for suitable use.
+Model Development: Implementing the new model. The model architecture will consist of multiple  layers for prediction.
+Model Training: Split the pre-processed data into training and testing sets. Train the model on the training data and monitor its performance during the training process.
+Model Evaluation: Evaluate the trained model using the testing data. Calculate metrics such as RMSE to assess the accuracy of the model's predictions.
+Model Deployment: Once the model has been trained and evaluated, it can be used to make predictions on unseen data. Implement a mechanism to input new data, preprocess it using the same steps as before, and utilize the trained model to generate predictions for future closing prices.
+
+Objectives: Objective 1:
+The first objective of this project is to evaluate the effectiveness of LSTM (Long Short-Term Memory) models for stock price prediction. This involves conducting a thorough investigation into the performance of LSTM models using historical stock market data. By analyzing the strengths and limitations of LSTM models in comparison to other prediction techniques, we aim to determine their suitability and accuracy in capturing stock price trends(Gers, Schmidhuber and Cummins, 2000). The objective also includes measuring the reliability of the LSTM model and its ability to make accurate predictions(Gers, Schmidhuber and Cummins, 2000). This is to get our foot in to using a model to predict stock prices.
+
+Objective 2:
+Another objective is to explore alternative prediction models for stock price analysis. This objective entails researching and analysing various machine learning and statistical models commonly used in the field, such as ARIMA, SVM, and random forests. By comparing the performance of these models against the LSTM model in terms of accuracy and efficiency, we can identify their respective strengths and weaknesses and evaluate their applicability to different types of stock market data.
+
+Objective 3:
+A key objective of the project is to stay updated with new trends in artificial intelligence (AI) that are impacting stock market analysis. This involves conducting in-depth research into recent advancements in AI and their specific implications for stock price prediction. Techniques such as deep learning, reinforcement learning, and natural language processing will be studied in the context of stock market analysis. The objective is to identify innovative approaches and methodologies that leverage AI to enhance the accuracy and effectiveness of stock price prediction.
+
+Objective 4:
+The project aims to develop a highly accurate stock price prediction model that outperforms existing approaches. The model will be enhanced by incorporating additional features, such as sentiment analysis of news and social media data, to capture the impact of external factors on stock prices. Through careful parameter tuning and feature selection techniques, the model's performance will be optimized to achieve higher accuracy and reliability.
+
+Objective 5:
+To further enhance the prediction model, the project will focus on gathering additional data and investigating the influence of news on stock market prices. This objective includes collecting and incorporating relevant data sources, such as financial news articles and social media sentiment, into the prediction model. By studying the correlation between recent news events and stock market movements, we aim to identify meaningful insights that can be incorporated into the model. The objective is to determine how recent news affects stock market prices and implement strategies to capture this influence effectively.
+
+Objective 6:
+In order to explore advanced AI algorithms for stock price prediction, the project aims to investigate cutting-edge techniques. This objective involves studying algorithms such as deep neural networks, generative adversarial networks (GANs), and attention mechanisms. By analyzing the advantages and challenges associated with these advanced AI algorithms, we can determine their potential to improve the accuracy and robustness of the prediction model. The objective is to assess if and how these algorithms can be integrated or adapted to enhance the stock price prediction capabilities of the model.
+
+Objective 7:
+In addition to the technical objectives, the project recognizes the importance of finding a good working design scheme that promotes effectiveness and ease of work. One potential approach is the use of Gantt charts, which can help in planning and scheduling project tasks, tracking progress, and managing project timelines. By employing a well-designed project management framework, I aim to ensure efficient workflow and successful execution of the project.
+
+How the objectives would be achieved:
+Objective 1: Evaluating and testing LSTM model
+Activities:
+	•	Conduct a literature review to understand the current state of LSTM models in stock price prediction.
+	•	Gather historical stock market data for training and testing the LSTM model.
+	•	Implement and train the LSTM model using the collected data.
+	•	Evaluate the performance of the LSTM model by measuring metrics such as accuracy and precision
+	•	Compare the results of the LSTM model with other prediction models to determine its effectiveness.
+Deliverables:
+	•	Literature review chapter in the final report summarizing the findings related to LSTM models in stock price prediction.
+	•	Trained and tested LSTM model code and documentation.
+	•	Evaluation metrics report comparing the performance of the LSTM model with other models.
+Timeline: The activities related to evaluating the LSTM model may take approximately 4-6 weeks, depending on the complexity of the dataset, the implementation process, and the scope of the evaluation.
+Objective 2: Evaluate other models and their effectiveness.
+Activities:
+	•	Identify alternative prediction models commonly used for stock price analysis.
+	•	Research and understand the principles and algorithms behind these models.
+	•	Gather relevant datasets to evaluate the alternative models.
+	•	Implement and train each model using the collected data.
+	•	Evaluate the performance of each model using appropriate metrics.
+	•	Compare the results of each model to determine their effectiveness and compare them with the LSTM model.
+Deliverables:
+	•	Documentation summarizing the principles and algorithms of the alternative prediction models.
+	•	Trained and tested models' code and documentation.
+	•	Evaluation metrics report comparing the performance of different models.
+Timeline: The activities related to evaluating other models may take approximately 6-8 weeks, depending on the number of models to be evaluated, the complexity of their implementation, and the size of the datasets.
+Objective 3: Research in-depth new trends in AI and how it's making an impact.
+Activities:
+	•	Conduct an extensive literature review on recent advancements and trends in AI.
+	•	Explore research papers, industry reports, and academic journals to gather information.
+	•	Study and understand the applications of AI in stock market analysis.
+	•	Analyze case studies and real-world examples showcasing the impact of AI in stock price prediction.
+	•	Identify key technologies and methodologies driving the advancements in AI for stock market analysis.
+Deliverables:
+	•	Literature review chapter in the final report highlighting the new trends in AI relevant to stock price prediction.
+	•	Documentation summarizing the applications and impact of AI in stock market analysis.
+Timeline: The activities related to researching new trends in AI may take approximately 4-6 weeks, depending on the breadth and depth of the literature available and the complexity of understanding the technologies and methodologies.
+Objective 4: Create a model that predicts stock prices with high effectiveness.
+Activities:
+	•	Define the architecture and design of the stock price prediction model, incorporating the insights gained from the evaluation of LSTM models and other alternative models.
+	•	Gather relevant datasets for training and testing the model.
+	•	Implement and train the prediction model using suitable algorithms and techniques.
+	•	Optimize the model parameters and features to improve its effectiveness and performance.
+	•	Evaluate the performance of the model using appropriate evaluation metrics.
+Deliverables:
+	•	Trained and tested stock price prediction model code and documentation.
+	•	Evaluation metrics report demonstrating the effectiveness and accuracy of the developed model.
+Timeline: The activities related to creating the stock price prediction model may take approximately 8-12 weeks, depending on the complexity of the model design, the size and quality of the datasets, and the optimization process.
+Objective 5: Gather more data if possible and research if recent news affects stock market prices and how that can be implemented into an AI.
+Activities:
+	•	Identify additional data sources that provide relevant information for stock market analysis, including news articles, financial reports, and social media sentiment.
+	•	Develop data gathering mechanisms and techniques to collect and preprocess the additional data.
+	•	Perform a correlation analysis between recent news events and stock market price movements.
+	•	Investigate natural language processing techniques to extract sentiment and key information from news data.
+	•	Explore methodologies to integrate the news data into the AI-based stock price prediction model.
+Deliverables:
+	•	Documentation describing the additional data sources and the data gathering process.
+	•	Correlation analysis report between recent news events and stock market prices.
+	•	Documentation explaining the integration of news data into the stock price prediction model.
+Timeline: The activities related to gathering more data and investigating the impact of news on stock market prices may take approximately 6-8 weeks, depending on the availability of relevant data sources and the complexity of the analysis and integration process.
+Objective 6: Find interesting algorithms in the scope of AI.
+Activities:
+	•	Research and explore various AI algorithms beyond LSTM models and other conventional techniques.
+	•	Identify algorithms that have shown promising results in related domains or applications.
+	•	Study and understand the principles and working mechanisms of these algorithms.
+	•	Evaluate the feasibility and potential application of these algorithms in the stock price prediction domain.
+	•	Select and implement the most suitable algorithms for further evaluation and comparison.
+Deliverables:
+	•	Documentation summarizing the principles and mechanisms of the identified interesting algorithms.
+	•	Implemented code and documentation showcasing the application of selected algorithms.
+Timeline: The activities related to finding interesting algorithms in the scope of AI may take approximately 4-6 weeks, depending on the number of algorithms to be explored, their complexity, and the evaluation process.
+Objective 7: Find a good working design scheme, which is effective and helps work easily. Possibly the use of Gantt charts would help.
+Activities:
+	•	Research and explore different project management frameworks and design schemes.
+	•	Assess the benefits and suitability of various design schemes, including the use of Gantt charts, for the project's context.
+	•	Evaluate the ease of use and effectiveness of different design schemes in managing project tasks and timelines.
+	•	Select and implement a design scheme that best suits the project's requirements and facilitates smooth workflow.
+Deliverables:
+	•	Documentation explaining the chosen design scheme and its advantages.
+	•	Project management framework incorporating the selected design scheme.
+	•	Gantt chart or similar visual representation depicting project tasks, timelines, and dependencies.
+Legal Social and Ethical Issues:
+
+Can it be that some people might find the productive offensive?
+There have already been models created that are similar to the AI that I will create. Predictive models are far from offensive, notwithstanding the doubts some people have about new artificial intelligence technologies. However a model can be considered offensive because an AI that predicts stock prices much more intelligently than humans could undermine the fundamental principles that govern how a stock market operates and lead to unintended consequences, even though it is extremely unlikely that the model will behave better than humans.
+
+
+Will you be using copyright material? How will you get permission to use it?
+	To comprehend their reasoning and how they improved their models, I would be using working models created by other engineers. I will reference their paper or GitHub repository in my report using this material.
+Does the product adhere to accepted standards and is it secure enough to hold data? In case you are dealing with confidential data have you seek advice from the Ethics Committee?
+	Since I would be using publicly accessible data, its security is not necessary; but, since the work would be done locally and with Python libraries on Jupyter, its security would be secured. Although it’s worth mentioning data integrity in this scope has to be more thoroughly studied.
+Who will you interview?
+	Most likely, I'll interview my friends to get their feedback on the model. If I have to divulge their names, I'll ask them to sign a consent form. The process will probably involve me sending them an online questionnaire, which they may respond to and share their ideas on.
+Resources
+
+To ensure the successful setup of the development environment, the following resources will be required:
+Computer: A computer with Windows operating system is preferred, as it is compatible with the necessary software and tools for developing the stock price prediction model. The computer should meet the minimum system requirements for running the required software smoothly.
+Python: Python programming language is essential for developing the stock price prediction model. It is recommended to have Python installed on the computer, preferably the latest version, along with the necessary libraries and packages for data analysis and machine learning.
+Internet Connection: A stable and reliable internet connection is necessary to access online resources, gather data, and download required libraries and datasets. It is important to have a sufficient bandwidth and a reliable connection to avoid interruptions during the development process.
+Disk Space: Ample disk space is required to store the datasets, code, and other project files. Sufficient free space should be available on the disk drive to accommodate the data collection, pre-processing, model training, and storing intermediate and final results.
+Jupyter Notebook: Jupyter Notebook will be the main framework used for developing the stock price prediction model. It provides an interactive environment for writing and executing code, analyzing data, and visualizing results. It is recommended to have Jupyter Notebook installed on the computer, along with the necessary dependencies.
+Access to Scholarly Articles: Access to scholarly articles, research papers, and industry reports is crucial for conducting an in-depth literature review and staying updated with the latest advancements in AI and stock market analysis. Online databases such as IEEE, available through the university's library system, can provide access to a wide range of scholarly resources.
+
+
+Critical success factors
+
+The success of the project relies heavily on the critical activities, people, and resources involved. One critical activity is obtaining accurate and relevant data. If the model is trained on unreliable or incorrect data, its decision-making abilities will be compromised, rendering the model ineffective. To mitigate this risk, it is essential to ensure the data used for training is carefully selected, validated, and regularly updated to maintain accuracy.
+Another critical factor is the performance of the AI model. There is inherent risk associated with the complexity of accurately predicting stock prices. The model's performance may not meet expectations or fail to outperform existing models due to unpredictable market conditions and unforeseen factors. To address this risk, rigorous testing and evaluation processes should be implemented to assess the model's performance against historical data and benchmark it against existing models. This helps identify areas for improvement and refinement.
+One crucial step in managing the risks is the implementation of continuous monitoring and improvement practices. By setting up monitoring systems, any deviations or anomalies in the model's performance can be detected promptly. Regular monitoring allows for proactive adjustments and refinements to the model based on new data and market insights. This iterative approach ensures the model stays up to date and maintains optimal performance over time.
+
+References
+
+Gers, F.A., Schmidhuber, J. and Cummins, F. (2000) ‘Learning to Forget: Continual Prediction with LSTM’, Neural Computation, 12(10), pp. 2451–2471. Available at: https://doi.org/10.1162/089976600300015015.
+Huang, L. and Peissl, W. (2023) ‘Artificial Intelligence—A New Knowledge and Decision-Making Paradigm?’, in L. Hennen et al. (eds) Technology Assessment in a Globalized World: Facing the Challenges of Transnational Technology Governance. Cham: Springer International Publishing, pp. 175–201. Available at: https://doi.org/10.1007/978-3-031-10617-0_9.
+
